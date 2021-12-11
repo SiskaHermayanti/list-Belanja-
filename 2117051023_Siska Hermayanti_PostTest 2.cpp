@@ -7,14 +7,14 @@ int main(){
 	int Harga_Sebuah_Penghapus;
 	int Harga_Sebuah_Penggaris;
 	
-	cin>> Harga_Sebuah_Pena;
-	cin>> Harga_Sebuah_Buku;
-	cin>> Harga_Sebuah_Penghapus;
-	cin>> Harga_Sebuah_Penggaris;
+	cin>>Harga_Sebuah_Pena;
+	cin>>Harga_Sebuah_Buku;
+	cin>>Harga_Sebuah_Penghapus;
+	cin>>Harga_Sebuah_Penggaris;
 	
 	cout<<endl;
 	
-	cout<<"{###==========List Barang Belanjaan==========###}"<<endl;
+	cout<<"{###========== List Barang Belanjaan ==========###}"<<endl;
 	cout<<endl;
 	cout<<"Harga 23 buah Buku	= Rp "<< 23*Harga_Sebuah_Pena <<endl;
 	cout<<"Harga 23 buah Penghapus 	= Rp "<< 23*Harga_Sebuah_Buku <<endl;
